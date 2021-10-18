@@ -462,6 +462,10 @@ button {
     background-color: #000;
     color: #ffffff;
     margin-left: 20px;
+    border-radius: 10px;
+}
+.seemore_bt:hover{
+    background-color: maroon;
 }
 .image_9{
 	width: 100%;
