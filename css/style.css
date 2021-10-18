@@ -412,7 +412,11 @@ button {
     font-size: 14px;
     height: 50px;
     margin-left: 20px;
-    margin-top: 50px;	
+    margin-top: 50px;
+    border-radius: 5px;	
+}
+.about_bt:hover{
+    background-color: cadetblue;
 }
 
 .table_img {
