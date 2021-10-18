@@ -665,10 +665,14 @@ ul.location li img {padding-right: 10px;}
 .subscribe_bt {
     color: #ffffff;
     background-color: #f6a50e;
-   width: 41%;
-height: 42px;
-font-size: 17px;
+    width: 41%;
+    height: 42px;
+    font-size: 17px;
 }
+.subscribe_bt:hover{
+    background-color: crimson;
+}
+
 .copyright{
 	width: 100%;
 	float: left;
