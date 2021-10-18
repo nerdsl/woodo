@@ -338,12 +338,16 @@ button {
 .more_bt {
     width: 40%;
     float: left;
-    background-color: #ffffff;
+    background-color:gainsboro;
     font-size: 17px;
-    color: #121010;
+    color: #e20a0a;
     height: 50px;
     font-weight: 700;
     padding-top: 5px;
+}
+
+.more_bt:hover{
+    background-color:midnightblue;
 }
 
 .furniture_bt {
