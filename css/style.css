@@ -353,13 +353,18 @@ button {
 .furniture_bt {
     width: 40%;
     float: left;
-    background-color: #000000;
+    background-color: gainsboro;
     font-size: 17px;
-    color: #ffffff;
+    color: #000;
     height: 50px;
     font-weight: 700;
     padding-top: 5px;
     margin-left: 25px;
+    border-radius: 5px;
+}
+
+.furniture_bt:hover{
+    background-color: midnightblue;
 }
 
 .about_section{
