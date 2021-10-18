@@ -598,6 +598,9 @@ button {
 	margin-top: 17px;
 	font-size: 26px;
 }
+.send_bt:hover{
+    background-color: crimson;
+}
 
 .footer_section{
 	width: 100%;
