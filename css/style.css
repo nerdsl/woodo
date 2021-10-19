@@ -307,6 +307,11 @@ button {
     color: #ffffff;
 } 
 
+.navbar-nav .nav-item .active {
+    font-weight: bolder;
+    color: #000;
+ } 
+
 .nav-link:focus, .nav-link:hover {
     color: #000 !important;
 }
