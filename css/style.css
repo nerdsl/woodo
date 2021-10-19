@@ -343,24 +343,33 @@ button {
 .more_bt {
     width: 40%;
     float: left;
-    background-color: #ffffff;
+    background-color:gainsboro;
     font-size: 17px;
-    color: #121010;
+    color: #e20a0a;
     height: 50px;
     font-weight: 700;
     padding-top: 5px;
 }
 
+.more_bt:hover{
+    background-color:midnightblue;
+}
+
 .furniture_bt {
     width: 40%;
     float: left;
-    background-color: #000000;
+    background-color: gainsboro;
     font-size: 17px;
-    color: #ffffff;
+    color: #000;
     height: 50px;
     font-weight: 700;
     padding-top: 5px;
     margin-left: 25px;
+    border-radius: 5px;
+}
+
+.furniture_bt:hover{
+    background-color: midnightblue;
 }
 
 .about_section{
@@ -408,7 +417,11 @@ button {
     font-size: 14px;
     height: 50px;
     margin-left: 20px;
-    margin-top: 50px;	
+    margin-top: 50px;
+    border-radius: 5px;	
+}
+.about_bt:hover{
+    background-color: cadetblue;
 }
 
 .table_img {
@@ -454,6 +467,10 @@ button {
     background-color: #000;
     color: #ffffff;
     margin-left: 20px;
+    border-radius: 10px;
+}
+.seemore_bt:hover{
+    background-color: maroon;
 }
 .image_9{
 	width: 100%;
@@ -586,6 +603,9 @@ button {
 	margin-top: 17px;
 	font-size: 26px;
 }
+.send_bt:hover{
+    background-color: crimson;
+}
 
 .footer_section{
 	width: 100%;
@@ -650,10 +670,14 @@ ul.location li img {padding-right: 10px;}
 .subscribe_bt {
     color: #ffffff;
     background-color: #f6a50e;
-   width: 41%;
-height: 42px;
-font-size: 17px;
+    width: 41%;
+    height: 42px;
+    font-size: 17px;
 }
+.subscribe_bt:hover{
+    background-color: crimson;
+}
+
 .copyright{
 	width: 100%;
 	float: left;
